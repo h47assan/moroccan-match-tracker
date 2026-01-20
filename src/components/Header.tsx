@@ -10,8 +10,8 @@ const Header = () => {
   const navLinks = [
     { path: '/', label: 'Matches' },
     { path: '/transfers', label: 'Transfers' },
-    { path: '#', label: 'Players' },
-    { path: '#', label: 'Leagues' },
+    { path: '/players', label: 'Players' },
+    { path: '/leagues', label: 'Leagues' },
   ];
 
   const isActive = (path: string) => location.pathname === path;

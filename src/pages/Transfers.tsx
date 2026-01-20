@@ -1,27 +1,17 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeftRight } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TransferFilters from '@/components/TransferFilters';
 import TransferTable from '@/components/TransferTable';
-import { mockTransfers, getTransfersByLeague } from '@/data/transferData';
+import { useTransfers } from '@/hooks/useTransfers';
 
 const Transfers = () => {
   const [selectedLeague, setSelectedLeague] = useState<string | null>(null);
   const [transferType, setTransferType] = useState<'all' | 'in' | 'out'>('all');
 
-  const filteredTransfers = useMemo(() => {
-    let transfers = [...mockTransfers];
-    
-    // Sort by most recent first
-    transfers.sort((a, b) => b.date.getTime() - a.date.getTime());
-    
-    // Filter by league
-    transfers = getTransfersByLeague(transfers, selectedLeague);
-    
-    return transfers;
-  }, [selectedLeague, transferType]);
+  const { data: transfers = [], isLoading } = useTransfers(selectedLeague);
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -57,18 +47,18 @@ const Transfers = () => {
               className="flex flex-wrap gap-6 text-sm"
             >
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-foreground">{mockTransfers.length}</span>
+                <span className="text-2xl font-bold text-foreground">{transfers.length}</span>
                 <span className="text-muted-foreground">Total Transfers</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold text-secondary">
-                  {mockTransfers.filter(t => t.type === 'loan').length}
+                  {transfers.filter(t => t.type === 'loan').length}
                 </span>
                 <span className="text-muted-foreground">Loans</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold text-primary">
-                  {mockTransfers.filter(t => t.type === 'permanent').length}
+                  {transfers.filter(t => t.type === 'permanent').length}
                 </span>
                 <span className="text-muted-foreground">Permanent</span>
               </div>
@@ -85,7 +75,14 @@ const Transfers = () => {
             onTransferTypeChange={setTransferType}
           />
 
-          <TransferTable transfers={filteredTransfers} />
+          {isLoading ? (
+            <div className="text-center py-12">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+              <p className="mt-4 text-muted-foreground">Loading transfers...</p>
+            </div>
+          ) : (
+            <TransferTable transfers={transfers} />
+          )}
         </section>
       </main>
 

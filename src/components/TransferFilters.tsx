@@ -6,7 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { transferLeagues } from '@/data/transferData';
+import { useLeagues } from '@/hooks/useLeagues';
 
 interface TransferFiltersProps {
   selectedLeague: string | null;
@@ -21,6 +21,7 @@ const TransferFilters = ({
   transferType,
   onTransferTypeChange,
 }: TransferFiltersProps) => {
+  const { data: transferLeagues = [] } = useLeagues();
   return (
     <div className="flex flex-wrap items-center gap-4 mb-6">
       {/* League Filter */}

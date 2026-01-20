@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import DateFilter from '@/components/DateFilter';
@@ -6,16 +6,14 @@ import LeagueFilter from '@/components/LeagueFilter';
 import MatchList from '@/components/MatchList';
 import Footer from '@/components/Footer';
 import { DateFilter as DateFilterType } from '@/types/match';
-import { leagues, getMatchesByDate, getMatchesByLeague } from '@/data/mockData';
+import { useMatches, useLeagues } from '@/hooks/useMatches';
 
 const Index = () => {
   const [dateFilter, setDateFilter] = useState<DateFilterType>('today');
   const [leagueFilter, setLeagueFilter] = useState<string | null>(null);
 
-  const filteredMatches = useMemo(() => {
-    const byDate = getMatchesByDate(dateFilter);
-    return getMatchesByLeague(byDate, leagueFilter);
-  }, [dateFilter, leagueFilter]);
+  const { data: matches = [], isLoading: matchesLoading } = useMatches(dateFilter, leagueFilter);
+  const { data: leagues = [], isLoading: leaguesLoading } = useLeagues();
 
   const getDateTitle = () => {
     switch (dateFilter) {
@@ -52,10 +50,17 @@ const Index = () => {
           </div>
 
           {/* Match List */}
-          <MatchList 
-            matches={filteredMatches} 
-            title={getDateTitle()}
-          />
+          {matchesLoading || leaguesLoading ? (
+            <div className="text-center py-12">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+              <p className="mt-4 text-muted-foreground">Loading matches...</p>
+            </div>
+          ) : (
+            <MatchList 
+              matches={matches} 
+              title={getDateTitle()}
+            />
+          )}
         </section>
       </main>
 
