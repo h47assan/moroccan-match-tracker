@@ -36,3 +36,17 @@ export interface League {
 }
 
 export type DateFilter = 'today' | 'tomorrow' | 'week';
+
+export interface Transfer {
+  id: string;
+  player: MoroccanPlayer;
+  fromTeam: Team;
+  toTeam: Team;
+  league: League;
+  fee: string;
+  contractStart: string;
+  contractEnd: string;
+  marketValue: string;
+  date: Date;
+  type: 'permanent' | 'loan';
+}
