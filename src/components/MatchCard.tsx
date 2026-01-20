@@ -12,6 +12,10 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
   const isLive = match.status === 'live';
   const isFinished = match.status === 'finished';
 
+  // Group players by team
+  const homePlayers = match.moroccanPlayers.filter(p => p.teamId === match.homeTeam.id);
+  const awayPlayers = match.moroccanPlayers.filter(p => p.teamId === match.awayTeam.id);
+
   const formatKickoffTime = (date: Date) => {
     return format(date, 'HH:mm');
   };
@@ -83,20 +87,49 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
         </div>
       </div>
 
-      {/* Moroccan Players */}
+      {/* Moroccan Players - Grouped by Team */}
       <div className="pt-3 border-t border-border/50">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-3">
           <span className="text-sm">🇲🇦</span>
           <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Moroccans in Match</span>
         </div>
-        <div className="flex flex-wrap gap-2">
-          {match.moroccanPlayers.map((player) => (
-            <Badge key={player.id} variant="player" className="gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
-              {player.name}
-              <span className="text-muted-foreground">({player.position})</span>
-            </Badge>
-          ))}
+        
+        <div className="grid grid-cols-2 gap-4">
+          {/* Home Team Players */}
+          <div className="space-y-2">
+            {homePlayers.length > 0 && (
+              <>
+                <p className="text-xs text-muted-foreground">{match.homeTeam.shortName}</p>
+                <div className="flex flex-col gap-1.5">
+                  {homePlayers.map((player) => (
+                    <Badge key={player.id} variant="player" className="gap-1.5 w-fit">
+                      <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                      {player.name}
+                      <span className="text-muted-foreground">({player.position})</span>
+                    </Badge>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+          
+          {/* Away Team Players */}
+          <div className="space-y-2 text-right">
+            {awayPlayers.length > 0 && (
+              <>
+                <p className="text-xs text-muted-foreground">{match.awayTeam.shortName}</p>
+                <div className="flex flex-col gap-1.5 items-end">
+                  {awayPlayers.map((player) => (
+                    <Badge key={player.id} variant="player" className="gap-1.5 w-fit">
+                      <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                      {player.name}
+                      <span className="text-muted-foreground">({player.position})</span>
+                    </Badge>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </div>
