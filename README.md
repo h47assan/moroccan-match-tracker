@@ -1,26 +1,86 @@
-# Welcome to your Lovable project
+# Moroccan Match Tracker ⚽🇲🇦
 
-## Project info
+A full-stack web application to track Moroccan football players, their matches, transfers, and statistics across global leagues.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌟 Features
 
-## How can I edit this code?
+- 📊 **Player Tracking** - Database of 900+ Moroccan players from Wikidata
+- ⚽ **Live Matches** - Real-time match tracking via API-Football integration
+- 🔄 **Transfers** - Track player movements between clubs
+- 🏆 **Multi-League Support** - Coverage across 48+ leagues worldwide
+- 🎯 **Smart Filtering** - Filter by league, team, position, date
+- 🔴 **Live Scores** - Real-time score updates for ongoing matches
 
-There are several ways of editing your application.
+## 🚀 Quick Start
 
-**Use Lovable**
+### Prerequisites
+- Node.js 18+ and npm
+- PostgreSQL database
+- API-Football account (free tier available)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+```sh
+# Clone the repository
+git clone <YOUR_GIT_URL>
+cd moroccan-match-tracker
 
-**Use your preferred IDE**
+# Install dependencies
+npm install
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Configure environment
+cp .env.example server/.env
+# Edit server/.env with your database and API credentials
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Run database migration
+node add-api-football-columns.js
 
-Follow these steps:
+# Start the backend server
+npm run server
+
+# In another terminal, start the frontend
+npm run dev
+```
+
+### Get API-Football Key
+1. Visit [API-Football](https://www.api-football.com/)
+2. Register for free (100 requests/day)
+3. Copy your API key
+4. Add to `server/.env`: `API_FOOTBALL_KEY=your_key_here`
+
+### Sync Data
+```bash
+# Sync Moroccan players from Wikidata
+node quick-sync.js
+
+# Sync upcoming matches from API-Football
+npm run sync:matches
+
+# Update live match scores
+npm run sync:live
+```
+
+## 📚 Documentation
+
+- **[QUICK_START_API_FOOTBALL.md](QUICK_START_API_FOOTBALL.md)** - Get started with API-Football in 3 steps
+- **[API_FOOTBALL_SETUP.md](API_FOOTBALL_SETUP.md)** - Detailed API-Football integration guide
+
+## 🏗️ Tech Stack
+
+### Frontend
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui components
+- React Query for data fetching
+
+### Backend
+- Node.js + Express
+- PostgreSQL database
+- Wikidata SPARQL API
+- API-Football REST API
+
+## 📁 Project Structure
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.

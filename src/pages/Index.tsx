@@ -9,7 +9,7 @@ import { DateFilter as DateFilterType } from '@/types/match';
 import { useMatches, useLeagues } from '@/hooks/useMatches';
 
 const Index = () => {
-  const [dateFilter, setDateFilter] = useState<DateFilterType>('today');
+  const [dateFilter, setDateFilter] = useState<DateFilterType>('all');
   const [leagueFilter, setLeagueFilter] = useState<string | null>(null);
 
   const { data: matches = [], isLoading: matchesLoading } = useMatches(dateFilter, leagueFilter);

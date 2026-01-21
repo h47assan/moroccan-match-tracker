@@ -12,7 +12,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "sync:matches": "node sync-matches.js",
+    "sync:live": "node sync-live-matches.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -51,6 +53,7 @@
     "concurrently": "^9.2.1",
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
+    "date-fns-tz": "^3.2.0",
     "dotenv": "^17.2.3",
     "embla-carousel-react": "^8.6.0",
     "express": "^5.2.1",

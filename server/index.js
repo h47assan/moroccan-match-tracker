@@ -9,7 +9,9 @@ import playersRouter from './routes/players.js';
 import leaguesRouter from './routes/leagues.js';
 import adminRouter from './routes/admin.js';
 
+console.log('Starting server...');
 dotenv.config({ path: './server/.env' });
+console.log('Dotenv loaded');
 
 const app = express();
 const PORT = process.env.PORT || 3001;

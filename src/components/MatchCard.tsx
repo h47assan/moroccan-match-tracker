@@ -1,7 +1,7 @@
 import { Match } from '@/types/match';
 import { Badge } from '@/components/ui/badge';
 import { Clock, MapPin } from 'lucide-react';
-import { format } from 'date-fns';
+import { format, toZonedTime } from 'date-fns-tz';
 
 interface MatchCardProps {
   match: Match;
@@ -17,7 +17,9 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
   const awayPlayers = match.moroccanPlayers.filter(p => p.teamId === match.awayTeam.id);
 
   const formatKickoffTime = (date: Date) => {
-    return format(date, 'HH:mm');
+    // Convert to Eastern Time and format
+    const etDate = toZonedTime(date, 'America/New_York');
+    return format(etDate, 'h:mm a', { timeZone: 'America/New_York' }) + ' ET';
   };
 
   return (
@@ -28,7 +30,7 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
       {/* League & Status Header */}
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
-          <span className="text-lg">{match.league.logo}</span>
+          <img src={match.league.logo} alt={match.league.name} className="w-5 h-5 object-contain" />
           <span className="text-sm text-muted-foreground">{match.league.name}</span>
         </div>
         {isLive ? (
@@ -53,8 +55,8 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
       <div className="flex items-center justify-between gap-4 mb-4">
         {/* Home Team */}
         <div className="flex-1 flex items-center gap-3">
-          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-muted/50 text-2xl">
-            {match.homeTeam.logo}
+          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-muted/50 p-1.5">
+            <img src={match.homeTeam.logo} alt={match.homeTeam.name} className="w-full h-full object-contain" />
           </div>
           <div className="min-w-0">
             <p className="font-semibold text-foreground truncate">{match.homeTeam.shortName}</p>
@@ -81,8 +83,8 @@ const MatchCard = ({ match, index }: MatchCardProps) => {
             <p className="font-semibold text-foreground truncate">{match.awayTeam.shortName}</p>
             <p className="text-xs text-muted-foreground truncate hidden md:block">{match.awayTeam.name}</p>
           </div>
-          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-muted/50 text-2xl">
-            {match.awayTeam.logo}
+          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-muted/50 p-1.5">
+            <img src={match.awayTeam.logo} alt={match.awayTeam.name} className="w-full h-full object-contain" />
           </div>
         </div>
       </div>

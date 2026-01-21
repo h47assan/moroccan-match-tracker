@@ -1,0 +1,246 @@
+{
+  "timestamp": "2026-01-21T20:29:08.255Z",
+  "totalPlayers": "932",
+  "playersWithMatches": "11",
+  "playersWithoutMatches": "921",
+  "topPlayers": [
+    {
+      "name": "Adham El Idrissi",
+      "team": "Ajax",
+      "position": "ST",
+      "appearances": "12"
+    },
+    {
+      "name": "Abdelhamid Sabiri",
+      "team": "Borussia Mönchengladbach",
+      "position": "CM",
+      "appearances": "10"
+    },
+    {
+      "name": "Adam Boujamaa",
+      "team": "Başakşehir",
+      "position": "CM",
+      "appearances": "10"
+    },
+    {
+      "name": "Achraf Bencharki",
+      "team": "Borussia Mönchengladbach",
+      "position": "ST",
+      "appearances": "10"
+    },
+    {
+      "name": "Adil Hermach",
+      "team": "Borussia Mönchengladbach",
+      "position": "CM",
+      "appearances": "10"
+    },
+    {
+      "name": "Yassine Bounou",
+      "team": "Al-Hilal Saudi FC",
+      "position": "GK",
+      "appearances": "8"
+    },
+    {
+      "name": "Achraf Dari",
+      "team": "Al-Qadisiyah FC",
+      "position": "CB",
+      "appearances": "8"
+    },
+    {
+      "name": "Sofiane Boufal",
+      "team": "Al-Hilal Saudi FC",
+      "position": "CM",
+      "appearances": "8"
+    },
+    {
+      "name": "Abderrazak Hamdallah",
+      "team": "Al-Ittihad FC",
+      "position": "ST",
+      "appearances": "8"
+    },
+    {
+      "name": "Abderrahmane Laabi",
+      "team": "Al Khaleej Saihat",
+      "position": "CB",
+      "appearances": "8"
+    },
+    {
+      "name": "Abdelali Mhamdi",
+      "team": "Slovan Bratislava",
+      "position": "GK",
+      "appearances": "3"
+    },
+    {
+      "name": "Hicham Kharbouch",
+      "team": null,
+      "position": "MF",
+      "appearances": "0"
+    },
+    {
+      "name": "Haytam Manaout",
+      "team": null,
+      "position": "MF",
+      "appearances": "0"
+    },
+    {
+      "name": "Fawzi Ouaamar",
+      "team": null,
+      "position": "CM",
+      "appearances": "0"
+    },
+    {
+      "name": "Abdelkarim Benhenia",
+      "team": "Moghreb Atlético Tetuán",
+      "position": "ST",
+      "appearances": "0"
+    },
+    {
+      "name": "Amine Harit",
+      "team": null,
+      "position": "CM",
+      "appearances": "0"
+    },
+    {
+      "name": "Yasmine Zouhir",
+      "team": null,
+      "position": "MF",
+      "appearances": "0"
+    },
+    {
+      "name": "Naïm Byar",
+      "team": null,
+      "position": "MF",
+      "appearances": "0"
+    },
+    {
+      "name": "Fahd El Khoumisti",
+      "team": null,
+      "position": "ST",
+      "appearances": "0"
+    },
+    {
+      "name": "Nouaman Aarab",
+      "team": null,
+      "position": "CM",
+      "appearances": "0"
+    }
+  ],
+  "teamsByPlayerCount": [
+    {
+      "team": "Borussia Mönchengladbach",
+      "player_count": "30",
+      "total_appearances": "30",
+      "players": "Abdelhamid Sabiri, Achraf Bencharki, Adil Hermach"
+    },
+    {
+      "team": "Al-Hilal Saudi FC",
+      "player_count": "16",
+      "total_appearances": "16",
+      "players": "Sofiane Boufal, Yassine Bounou"
+    },
+    {
+      "team": "Ajax",
+      "player_count": "12",
+      "total_appearances": "12",
+      "players": "Adham El Idrissi"
+    },
+    {
+      "team": "Başakşehir",
+      "player_count": "10",
+      "total_appearances": "10",
+      "players": "Adam Boujamaa"
+    },
+    {
+      "team": "Raja Club Athletic",
+      "player_count": "10",
+      "total_appearances": "0",
+      "players": "Abdelilah Madkour, Abdeljalil Jbira, Abdelmoula Berrabeh, Abdelouahad Abdessamad, Abdessamad Ouhaki, Abdessamad Ouhakki, Adil Karrouchi, Ahmed Chagou, حسام الدين الصهاجي, عمر منصوري"
+    },
+    {
+      "team": "Al-Qadisiyah FC",
+      "player_count": "8",
+      "total_appearances": "8",
+      "players": "Achraf Dari"
+    },
+    {
+      "team": "Al-Ittihad FC",
+      "player_count": "8",
+      "total_appearances": "8",
+      "players": "Abderrazak Hamdallah"
+    },
+    {
+      "team": "Al Khaleej Saihat",
+      "player_count": "8",
+      "total_appearances": "8",
+      "players": "Abderrahmane Laabi"
+    },
+    {
+      "team": "IR Tanger",
+      "player_count": "5",
+      "total_appearances": "0",
+      "players": "Abdelfettah Boukhriss, Abdelhafid Lirki, Abdessamad Rafik, Ahmed Hamoudan, Ahmed Mohamadina"
+    },
+    {
+      "team": "Morocco men's national football team",
+      "player_count": "5",
+      "total_appearances": "0",
+      "players": "Abdeladim Khadrouf, Abdelhamid El Kaoutari, Abdelilah Hafidi, Abdelkbir El Ouadi, Abdelkrim Baadi"
+    },
+    {
+      "team": "Moghreb Atlético Tetuán",
+      "player_count": "4",
+      "total_appearances": "0",
+      "players": "Abdelkarim Benhenia, Abdessamad El Moubarki, Ahmed Jahouh, Anas Jabroun"
+    },
+    {
+      "team": "Wydad Athletic Club",
+      "player_count": "4",
+      "total_appearances": "0",
+      "players": "Abdelatif Noussir, Abdelhaq Ait Laarif, Abderrazak El Mnasfi, Ahmed Alami Elouali"
+    },
+    {
+      "team": "Slovan Bratislava",
+      "player_count": "3",
+      "total_appearances": "3",
+      "players": "Abdelali Mhamdi"
+    },
+    {
+      "team": "Difaa Hassani El Jadidi",
+      "player_count": "3",
+      "total_appearances": "0",
+      "players": "Adil El Hasnaoui, Adil Sassa, شعيب المفتول"
+    },
+    {
+      "team": "KACM",
+      "player_count": "3",
+      "total_appearances": "0",
+      "players": "Abdelali Essamlali, Abdelouahed Chakhsi, Abderrahim Essaidi"
+    }
+  ],
+  "positionDistribution": [
+    {
+      "position": "MF",
+      "count": "268"
+    },
+    {
+      "position": "CM",
+      "count": "264"
+    },
+    {
+      "position": "CB",
+      "count": "177"
+    },
+    {
+      "position": "ST",
+      "count": "170"
+    },
+    {
+      "position": "GK",
+      "count": "47"
+    },
+    {
+      "position": "RW",
+      "count": "6"
+    }
+  ]
+}

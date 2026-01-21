@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS leagues (
     short_name VARCHAR(10) NOT NULL,
     country VARCHAR(50) NOT NULL,
     logo VARCHAR(255),
+    api_football_id INTEGER UNIQUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -18,6 +19,7 @@ CREATE TABLE IF NOT EXISTS teams (
     short_name VARCHAR(10) NOT NULL,
     logo VARCHAR(255),
     league_id VARCHAR(50) REFERENCES leagues(id),
+    api_football_id INTEGER UNIQUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -43,10 +45,11 @@ CREATE TABLE IF NOT EXISTS matches (
     away_team_id VARCHAR(50) NOT NULL REFERENCES teams(id),
     league_id VARCHAR(50) NOT NULL REFERENCES leagues(id),
     kickoff_time TIMESTAMP NOT NULL,
-    status VARCHAR(20) NOT NULL CHECK (status IN ('scheduled', 'live', 'finished')),
+    status VARCHAR(20) NOT NULL CHECK (status IN ('scheduled', 'live', 'finished', 'cancelled')),
     home_score INTEGER,
     away_score INTEGER,
     venue VARCHAR(100),
+    api_football_id INTEGER UNIQUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

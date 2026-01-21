@@ -158,19 +158,49 @@ export async function fetchAllMoroccanPlayers() {
 
 /**
  * Get or create team in database
+ * FIXED: Properly normalize team names to avoid duplicates
  */
 async function getOrCreateTeam(teamName, teamWikidataId, league, teamCountry) {
   if (!teamName) return null;
 
   try {
-    // Check if team exists (handle special characters properly)
-    const existingTeam = await query(
-      'SELECT id FROM teams WHERE LOWER(name) = LOWER($1) OR LOWER(short_name) = LOWER($1)',
-      [teamName]
+    // Normalize the team name to handle variations
+    const normalizedName = normalizeTeamName(teamName);
+
+    // Check if team exists (by normalized name or exact match)
+    let existingTeam = await query(
+      `SELECT id FROM teams 
+       WHERE LOWER(name) = LOWER($1) 
+       OR LOWER(short_name) = LOWER($2)
+       OR LOWER(name) LIKE LOWER($3)
+       LIMIT 1`,
+      [teamName, teamName.substring(0, 10), `%${normalizedName}%`]
     );
 
     if (existingTeam.rows.length > 0) {
       return existingTeam.rows[0].id;
+    }
+
+    // CRITICAL FIX: Check for variations of Saudi teams and other common duplicates
+    const variationMatches = {
+      'al hilal': ['al-hilal', 'al hilal saudi fc', 'al hilal fc'],
+      'al ahli': ['al-ahli', 'al ahli jeddah', 'al-ahli jeddah', 'al ahli fc'],
+      'al ittihad': ['al-ittihad', 'al ittihad fc'],
+    };
+
+    for (const [key, variations] of Object.entries(variationMatches)) {
+      if (normalizedName.includes(key)) {
+        for (const variation of variations) {
+          const match = await query(
+            'SELECT id FROM teams WHERE LOWER(name) LIKE LOWER($1)',
+            [`%${variation}%`]
+          );
+          if (match.rows.length > 0) {
+            console.log(`  ✅ Found existing team using variation: ${variation} for ${teamName}`);
+            return match.rows[0].id;
+          }
+        }
+      }
     }
 
     // Get or create league first (make it optional - don't fail if no league)
@@ -203,7 +233,7 @@ async function getOrCreateTeam(teamName, teamWikidataId, league, teamCountry) {
     }
 
     // Create new team (even if no league)
-    const shortName = teamName.length > 20 ? teamName.substring(0, 20) : teamName;
+    const shortName = normalizedName.substring(0, 10);
     const newTeam = await query(
       `INSERT INTO teams (name, short_name, league_id, logo)
        VALUES ($1, $2, $3, '⚽')
@@ -219,6 +249,23 @@ async function getOrCreateTeam(teamName, teamWikidataId, league, teamCountry) {
     console.error(`     League: ${league}, Country: ${teamCountry}`);
     return null;
   }
+}
+
+/**
+ * Normalize team name to handle Saudi/European naming variations
+ */
+function normalizeTeamName(name) {
+  return name
+    .toLowerCase()
+    .replace(/[àáâãäå]/g, 'a')
+    .replace(/[èéêë]/g, 'e')
+    .replace(/[ìíîï]/g, 'i')
+    .replace(/[òóôõö]/g, 'o')
+    .replace(/[ùúûü]/g, 'u')
+    .replace(/[ýÿ]/g, 'y')
+    .replace(/ç/g, 'c')
+    .replace(/[,.\-&]/g, '')
+    .trim();
 }
 
 /**

@@ -1,0 +1,2015 @@
+{
+  "total": 932,
+  "checked": 501,
+  "mismatches": [],
+  "notFound": [],
+  "unassigned": [],
+  "correct": [],
+  "apiErrors": [
+    {
+      "name": "Adham El Idrissi",
+      "error": "request to https://v3.football-api.com/players/search?name=Adham%20El%20Idrissi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhamid Sabiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhamid%20Sabiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Bencharki",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Bencharki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Boujamaa",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Boujamaa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Hermach",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Hermach failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahmane Laabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahmane%20Laabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrazak Hamdallah",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrazak%20Hamdallah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Dari",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Dari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Sofiane Boufal",
+      "error": "request to https://v3.football-api.com/players/search?name=Sofiane%20Boufal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Yassine Bounou",
+      "error": "request to https://v3.football-api.com/players/search?name=Yassine%20Bounou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelali Mhamdi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelali%20Mhamdi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abde Ezzalzouli",
+      "error": "request to https://v3.football-api.com/players/search?name=Abde%20Ezzalzouli failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abde Raihani",
+      "error": "request to https://v3.football-api.com/players/search?name=Abde%20Raihani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdel Abqar",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdel%20Abqar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdel Malek El Hasnaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdel%20Malek%20El%20Hasnaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdel Malik Hsissane",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdel%20Malik%20Hsissane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdeladim Khadrouf",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdeladim%20Khadrouf failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelali Ait Al-Hakem",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelali%20Ait%20Al-Hakem failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelali Chajii",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelali%20Chajii failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelali El Khanboubi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelali%20El%20Khanboubi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelali Essamlali",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelali%20Essamlali failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelatif Noussir",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelatif%20Noussir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelaziz Barrada",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelaziz%20Barrada failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelfattah Hadraf",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelfattah%20Hadraf failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelfettah Boukhriss",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelfettah%20Boukhriss failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelghani Mouaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelghani%20Mouaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhadi Halhoul",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhadi%20Halhoul failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhafid Lirki",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhafid%20Lirki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhak Nouri",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhak%20Nouri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhakim Bassaine",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhakim%20Bassaine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhamid Ait Boudlal",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhamid%20Ait%20Boudlal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhamid El Kaoutari",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhamid%20El%20Kaoutari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhamid Maali",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhamid%20Maali failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelhaq Ait Laarif",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelhaq%20Ait%20Laarif failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelilah Hafidi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelilah%20Hafidi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelilah Madkour",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelilah%20Madkour failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdeljalil Jbira",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdeljalil%20Jbira failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelkarim Benhenia",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelkarim%20Benhenia failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelkarim Kissi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelkarim%20Kissi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelkbir El Ouadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelkbir%20El%20Ouadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelkhalek Hamidouch",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelkhalek%20Hamidouch failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelkrim Baadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelkrim%20Baadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdellah Farah",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdellah%20Farah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdellah Jlaidi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdellah%20Jlaidi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdellah Kharbouchi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdellah%20Kharbouchi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdellah Lahoua",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdellah%20Lahoua failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdellah Ouazane",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdellah%20Ouazane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelmoula Berrabeh",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelmoula%20Berrabeh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelmounaïm El Hajaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelmouna%C3%AFm%20El%20Hajaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelouahad Abdessamad",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelouahad%20Abdessamad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdelouahed Chakhsi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdelouahed%20Chakhsi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderahim Benkajjane",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderahim%20Benkajjane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderahmane Soussi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderahmane%20Soussi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderazak Hatab",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderazak%20Hatab failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahim Achchakir",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahim%20Achchakir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahim Essaidi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahim%20Essaidi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahim Makran",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahim%20Makran failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahman El Houasli",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahman%20El%20Houasli failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahman Kabous",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahman%20Kabous failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrahmane Mssassi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrahmane%20Mssassi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrazak El Mnasfi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrazak%20El%20Mnasfi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abderrazzak Jadid",
+      "error": "request to https://v3.football-api.com/players/search?name=Abderrazzak%20Jadid failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdeslam Akouzar",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdeslam%20Akouzar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessalam Benjelloun",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessalam%20Benjelloun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Badaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Badaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Chahiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Chahiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad El Moubarki",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20El%20Moubarki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Niani",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Niani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Ouhaki",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Ouhaki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Ouhakki",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Ouhakki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdessamad Rafik",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdessamad%20Rafik failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abdou Harroui",
+      "error": "request to https://v3.football-api.com/players/search?name=Abdou%20Harroui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abid El Idrissi",
+      "error": "request to https://v3.football-api.com/players/search?name=Abid%20El%20Idrissi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Abrahim Najmeddine",
+      "error": "request to https://v3.football-api.com/players/search?name=Abrahim%20Najmeddine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Douiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Douiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Hakimi",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Hakimi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Laaziri",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Laaziri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Achraf Lazaar",
+      "error": "request to https://v3.football-api.com/players/search?name=Achraf%20Lazaar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Alioui",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Alioui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Aznou",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Aznou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Ennafati",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Ennafati failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Farouk",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Farouk failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Masina",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Masina failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Soudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Soudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adam Tahaui",
+      "error": "request to https://v3.football-api.com/players/search?name=Adam%20Tahaui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adel Bettaieb",
+      "error": "request to https://v3.football-api.com/players/search?name=Adel%20Bettaieb failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adel Taarabt",
+      "error": "request to https://v3.football-api.com/players/search?name=Adel%20Taarabt failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Benzariouh",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Benzariouh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil El Hasnaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20El%20Hasnaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Fahim",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Fahim failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Karrouchi",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Karrouchi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Mezgour",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Mezgour failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Rami",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Rami failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Rhaili",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Rhaili failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Sassa",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Sassa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adil Tahif",
+      "error": "request to https://v3.football-api.com/players/search?name=Adil%20Tahif failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adnane Bensaad",
+      "error": "request to https://v3.football-api.com/players/search?name=Adnane%20Bensaad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adnane El Ouardy",
+      "error": "request to https://v3.football-api.com/players/search?name=Adnane%20El%20Ouardy failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Adrien Regattin",
+      "error": "request to https://v3.football-api.com/players/search?name=Adrien%20Regattin failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Alami Elouali",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Alami%20Elouali failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Ammi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Ammi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Belhadji",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Belhadji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Chagou",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Chagou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed El Atlassi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20El%20Atlassi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed El Messaoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20El%20Messaoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Hamoudan",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Hamoudan failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Jahouh",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Jahouh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Kantari",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Kantari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Mohamadina",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Mohamadina failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Mouhoub",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Mouhoub failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Qessab",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Qessab failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Rahmani",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Rahmani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Reda Tagnaouti",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Reda%20Tagnaouti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Talbi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Talbi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ahmed Tangeaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Ahmed%20Tangeaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Akram Nakach",
+      "error": "request to https://v3.football-api.com/players/search?name=Akram%20Nakach failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Alaa Meskini",
+      "error": "request to https://v3.football-api.com/players/search?name=Alaa%20Meskini failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Alaeddine Ajaraie",
+      "error": "request to https://v3.football-api.com/players/search?name=Alaeddine%20Ajaraie failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ali Boussaboun",
+      "error": "request to https://v3.football-api.com/players/search?name=Ali%20Boussaboun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ali Houary",
+      "error": "request to https://v3.football-api.com/players/search?name=Ali%20Houary failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ali Loune",
+      "error": "request to https://v3.football-api.com/players/search?name=Ali%20Loune failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ali Maamar",
+      "error": "request to https://v3.football-api.com/players/search?name=Ali%20Maamar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Alí El Failali",
+      "error": "request to https://v3.football-api.com/players/search?name=Al%C3%AD%20El%20Failali failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amin Erbati",
+      "error": "request to https://v3.football-api.com/players/search?name=Amin%20Erbati failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amin Tighazoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Amin%20Tighazoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Aboulfath",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Aboulfath failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Adli",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Adli failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Amamou",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Amamou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Amgar",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Amgar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Atouchi",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Atouchi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Bassi",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Bassi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Benaddi",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Benaddi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Boukamir",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Boukamir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Chabane",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Chabane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Dinar",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Dinar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine El Kass",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20El%20Kass failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine El Ouazzani",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20El%20Ouazzani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Harit",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Harit failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Ksassoua",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Ksassoua failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Messoussa",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Messoussa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Ouahabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Ouahabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Oudrhiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Oudrhiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Salama",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Salama failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Sbaï",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Sba%C3%AF failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Talal",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Talal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amine Zouhzouh",
+      "error": "request to https://v3.football-api.com/players/search?name=Amine%20Zouhzouh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amir Absalem",
+      "error": "request to https://v3.football-api.com/players/search?name=Amir%20Absalem failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amir El Haddaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Amir%20El%20Haddaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amir Richardson",
+      "error": "request to https://v3.football-api.com/players/search?name=Amir%20Richardson failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Amjhad Nazih",
+      "error": "request to https://v3.football-api.com/players/search?name=Amjhad%20Nazih failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Aazim",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Aazim failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Al Asbahi",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Al%20Asbahi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Alaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Alaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Bach",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Bach failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas El Mahraoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20El%20Mahraoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Jabroun",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Jabroun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Lemrabet",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Lemrabet failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Nanah",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Nanah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Serrhat",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Serrhat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Tajaouart",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Tajaouart failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anas Zniti",
+      "error": "request to https://v3.football-api.com/players/search?name=Anas%20Zniti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anass Dahani",
+      "error": "request to https://v3.football-api.com/players/search?name=Anass%20Dahani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anass Salah-Eddine",
+      "error": "request to https://v3.football-api.com/players/search?name=Anass%20Salah-Eddine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anass Zaroury",
+      "error": "request to https://v3.football-api.com/players/search?name=Anass%20Zaroury failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aniss El Hriti",
+      "error": "request to https://v3.football-api.com/players/search?name=Aniss%20El%20Hriti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anissa Belkasmi",
+      "error": "request to https://v3.football-api.com/players/search?name=Anissa%20Belkasmi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anissa Lahmari",
+      "error": "request to https://v3.football-api.com/players/search?name=Anissa%20Lahmari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anouar Abdelmalki",
+      "error": "request to https://v3.football-api.com/players/search?name=Anouar%20Abdelmalki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anouar El Mhassani",
+      "error": "request to https://v3.football-api.com/players/search?name=Anouar%20El%20Mhassani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anouar Jayed",
+      "error": "request to https://v3.football-api.com/players/search?name=Anouar%20Jayed failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Anuar Tuhami",
+      "error": "request to https://v3.football-api.com/players/search?name=Anuar%20Tuhami failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Assia Zouhair",
+      "error": "request to https://v3.football-api.com/players/search?name=Assia%20Zouhair failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Atik Chihab",
+      "error": "request to https://v3.football-api.com/players/search?name=Atik%20Chihab failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayman Aourir",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayman%20Aourir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayman Azhil",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayman%20Azhil failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayman El Hassouni",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayman%20El%20Hassouni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayman El Wafi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayman%20El%20Wafi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayman Ennair",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayman%20Ennair failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aymane Jelbat",
+      "error": "request to https://v3.football-api.com/players/search?name=Aymane%20Jelbat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aymane Mourid",
+      "error": "request to https://v3.football-api.com/players/search?name=Aymane%20Mourid failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aymean el Hani",
+      "error": "request to https://v3.football-api.com/players/search?name=Aymean%20el%20Hani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aymen Barkok",
+      "error": "request to https://v3.football-api.com/players/search?name=Aymen%20Barkok failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Abou",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Abou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Amraoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Amraoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Boucheta",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Boucheta failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Boukhari",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Boukhari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Bourhim",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Bourhim failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Chaikhoun",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Chaikhoun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub El Amloud",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20El%20Amloud failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub El Khaliqi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20El%20Khaliqi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Ezzaytouni",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Ezzaytouni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Jabbari",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Jabbari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Mallouki",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Mallouki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Nanah",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Nanah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Ouadrassi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Ouadrassi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Qasmi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Qasmi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Rachane",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Rachane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Skouma",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20Skouma failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoub Sørensen",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoub%20S%C3%B8rensen failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayoube Amaimouni-Echghouyab",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayoube%20Amaimouni-Echghouyab failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ayub Hadimi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ayub%20Hadimi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aziz Bouhaddouz",
+      "error": "request to https://v3.football-api.com/players/search?name=Aziz%20Bouhaddouz failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aziz Jounaid",
+      "error": "request to https://v3.football-api.com/players/search?name=Aziz%20Jounaid failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aziza Rabbah",
+      "error": "request to https://v3.football-api.com/players/search?name=Aziza%20Rabbah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Azzeddine Hissa",
+      "error": "request to https://v3.football-api.com/players/search?name=Azzeddine%20Hissa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Azzeddine Ourahou",
+      "error": "request to https://v3.football-api.com/players/search?name=Azzeddine%20Ourahou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Azzeddine Toufiqui",
+      "error": "request to https://v3.football-api.com/players/search?name=Azzeddine%20Toufiqui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "error": "request to https://v3.football-api.com/players/search?name=Azzedine%20Ounahi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aïman Maurer",
+      "error": "request to https://v3.football-api.com/players/search?name=A%C3%AFman%20Maurer failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Aïmen Moueffek",
+      "error": "request to https://v3.football-api.com/players/search?name=A%C3%AFmen%20Moueffek failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badie Aouk",
+      "error": "request to https://v3.football-api.com/players/search?name=Badie%20Aouk failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr Banoun",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20Banoun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr Boulahroud",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20Boulahroud failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr El Kaddouri",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20El%20Kaddouri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr Gaddarine",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20Gaddarine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr Kachani",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20Kachani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badr Zaki",
+      "error": "request to https://v3.football-api.com/players/search?name=Badr%20Zaki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Badreddine Benachour",
+      "error": "request to https://v3.football-api.com/players/search?name=Badreddine%20Benachour failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Benjamin Bouchouari",
+      "error": "request to https://v3.football-api.com/players/search?name=Benjamin%20Bouchouari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Assoufi",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Assoufi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Bari",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Bari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Başacıkoğlu",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Ba%C5%9Fac%C4%B1ko%C4%9Flu failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Biat",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Biat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Brahimi",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Brahimi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Douah",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Douah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20El%20Khannouss failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Nadir",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Nadir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilal Ould-Chikh",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilal%20Ould-Chikh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilel El Hamzaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilel%20El%20Hamzaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bilel Mennana",
+      "error": "request to https://v3.football-api.com/players/search?name=Bilel%20Mennana failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Bouabid Bouden",
+      "error": "request to https://v3.football-api.com/players/search?name=Bouabid%20Bouden failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim Darri",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20Darri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim Díaz",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20D%C3%ADaz failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim El Bahraoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20El%20Bahraoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim El Bahri",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20El%20Bahri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim Ghalidi",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20Ghalidi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Brahim Nekkach",
+      "error": "request to https://v3.football-api.com/players/search?name=Brahim%20Nekkach failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Camil Mmaee",
+      "error": "request to https://v3.football-api.com/players/search?name=Camil%20Mmaee failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chadi Riad",
+      "error": "request to https://v3.football-api.com/players/search?name=Chadi%20Riad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chafik Najih",
+      "error": "request to https://v3.football-api.com/players/search?name=Chafik%20Najih failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chahine van Bohemen",
+      "error": "request to https://v3.football-api.com/players/search?name=Chahine%20van%20Bohemen failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chahir Belghazouani",
+      "error": "request to https://v3.football-api.com/players/search?name=Chahir%20Belghazouani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chakib Benzoukane",
+      "error": "request to https://v3.football-api.com/players/search?name=Chakib%20Benzoukane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chams Faraji",
+      "error": "request to https://v3.football-api.com/players/search?name=Chams%20Faraji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Charafeddine Rhourdmani",
+      "error": "request to https://v3.football-api.com/players/search?name=Charafeddine%20Rhourdmani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Charki El Bahri",
+      "error": "request to https://v3.football-api.com/players/search?name=Charki%20El%20Bahri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chaymaa Mourtaji",
+      "error": "request to https://v3.football-api.com/players/search?name=Chaymaa%20Mourtaji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chemseddine Chtibi",
+      "error": "request to https://v3.football-api.com/players/search?name=Chemseddine%20Chtibi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chirine Knaidil",
+      "error": "request to https://v3.football-api.com/players/search?name=Chirine%20Knaidil failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chouaib Bellaarouch",
+      "error": "request to https://v3.football-api.com/players/search?name=Chouaib%20Bellaarouch failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Chouaïb Jikouni",
+      "error": "request to https://v3.football-api.com/players/search?name=Choua%C3%AFb%20Jikouni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Dahane El Harchi",
+      "error": "request to https://v3.football-api.com/players/search?name=Dahane%20El%20Harchi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Daniane Jawad",
+      "error": "request to https://v3.football-api.com/players/search?name=Daniane%20Jawad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Daylam Meddah",
+      "error": "request to https://v3.football-api.com/players/search?name=Daylam%20Meddah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Djennah Cherif",
+      "error": "request to https://v3.football-api.com/players/search?name=Djennah%20Cherif failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Doha El Madani",
+      "error": "request to https://v3.football-api.com/players/search?name=Doha%20El%20Madani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Driss Belaamri",
+      "error": "request to https://v3.football-api.com/players/search?name=Driss%20Belaamri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Driss Fettouhi",
+      "error": "request to https://v3.football-api.com/players/search?name=Driss%20Fettouhi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Driss Trichard",
+      "error": "request to https://v3.football-api.com/players/search?name=Driss%20Trichard failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Edan Diop",
+      "error": "request to https://v3.football-api.com/players/search?name=Edan%20Diop failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mahdi Kharmaj",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mahdi%20Kharmaj failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi Al Harrar",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20Al%20Harrar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi El Bassil",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20El%20Bassil failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi El Moubarik",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20El%20Moubarik failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi Karnas",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20Karnas failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi Maouhoub",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20Maouhoub failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El Mehdi Sidqy",
+      "error": "request to https://v3.football-api.com/players/search?name=El%20Mehdi%20Sidqy failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "El-Hassane M'Barki",
+      "error": "request to https://v3.football-api.com/players/search?name=El-Hassane%20M%27Barki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Elhabib Ait Baya",
+      "error": "request to https://v3.football-api.com/players/search?name=Elhabib%20Ait%20Baya failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Elias Abouchabaka",
+      "error": "request to https://v3.football-api.com/players/search?name=Elias%20Abouchabaka failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Elias Mago",
+      "error": "request to https://v3.football-api.com/players/search?name=Elias%20Mago failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Eliesse Ben Seghir",
+      "error": "request to https://v3.football-api.com/players/search?name=Eliesse%20Ben%20Seghir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Elyes Saïdi",
+      "error": "request to https://v3.football-api.com/players/search?name=Elyes%20Sa%C3%AFdi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Elyess Dao",
+      "error": "request to https://v3.football-api.com/players/search?name=Elyess%20Dao failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Enzo Alfatahi",
+      "error": "request to https://v3.football-api.com/players/search?name=Enzo%20Alfatahi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fahd El Ahmadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Fahd%20El%20Ahmadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fahd El Khoumisti",
+      "error": "request to https://v3.football-api.com/players/search?name=Fahd%20El%20Khoumisti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fahd Lahmadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Fahd%20Lahmadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fahd Moufi",
+      "error": "request to https://v3.football-api.com/players/search?name=Fahd%20Moufi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Faissal Al Mazyani",
+      "error": "request to https://v3.football-api.com/players/search?name=Faissal%20Al%20Mazyani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Faouzi Aaish",
+      "error": "request to https://v3.football-api.com/players/search?name=Faouzi%20Aaish failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Faouzi Abdelghani",
+      "error": "request to https://v3.football-api.com/players/search?name=Faouzi%20Abdelghani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Farah N'Ser",
+      "error": "request to https://v3.football-api.com/players/search?name=Farah%20N%27Ser failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Farid El Alagui",
+      "error": "request to https://v3.football-api.com/players/search?name=Farid%20El%20Alagui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Farid Talhaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Farid%20Talhaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fatima Ezzahra Akif",
+      "error": "request to https://v3.football-api.com/players/search?name=Fatima%20Ezzahra%20Akif failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fatima Gharbi",
+      "error": "request to https://v3.football-api.com/players/search?name=Fatima%20Gharbi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fatima Tagnaout",
+      "error": "request to https://v3.football-api.com/players/search?name=Fatima%20Tagnaout failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fatima Zahra Dahmos",
+      "error": "request to https://v3.football-api.com/players/search?name=Fatima%20Zahra%20Dahmos failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fatima Zahra El Jebraoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Fatima%20Zahra%20El%20Jebraoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fawzi Ouaamar",
+      "error": "request to https://v3.football-api.com/players/search?name=Fawzi%20Ouaamar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fayssal Harchaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Fayssal%20Harchaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fayçal Fajr",
+      "error": "request to https://v3.football-api.com/players/search?name=Fay%C3%A7al%20Fajr failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fouad Aghnima",
+      "error": "request to https://v3.football-api.com/players/search?name=Fouad%20Aghnima failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fouad Chafik",
+      "error": "request to https://v3.football-api.com/players/search?name=Fouad%20Chafik failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Fouad Zahouani",
+      "error": "request to https://v3.football-api.com/players/search?name=Fouad%20Zahouani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Garry Franchi",
+      "error": "request to https://v3.football-api.com/players/search?name=Garry%20Franchi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Gassan Ahadme",
+      "error": "request to https://v3.football-api.com/players/search?name=Gassan%20Ahadme failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ghizlane Chebbak",
+      "error": "request to https://v3.football-api.com/players/search?name=Ghizlane%20Chebbak failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ghizlane Chhiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Ghizlane%20Chhiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hakim El Bounadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hakim%20El%20Bounadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hakim Mesbahi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hakim%20Mesbahi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hakim Mouzaki",
+      "error": "request to https://v3.football-api.com/players/search?name=Hakim%20Mouzaki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hakim Ziyech",
+      "error": "request to https://v3.football-api.com/players/search?name=Hakim%20Ziyech failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamada Barakat",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamada%20Barakat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamid Ahaddad",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamid%20Ahaddad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamid Nater",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamid%20Nater failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamid Rhanem",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamid%20Rhanem failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Abourazzouk",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Abourazzouk failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Ait Allal",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Ait%20Allal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Boudlal",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Boudlal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Bouhadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Bouhadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Hafidi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Hafidi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Hajji",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Hajji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Hamouddi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Hamouddi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Hannouri",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Hannouri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Igamane",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Igamane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Khabba",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Khabba failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Koutoune",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Koutoune failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Mendyl",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Mendyl failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Moujahid",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Moujahid failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Regragui",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Regragui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Sakhi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Sakhi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Sanhaji",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Sanhaji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hamza Semmoumy",
+      "error": "request to https://v3.football-api.com/players/search?name=Hamza%20Semmoumy failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hanane Ait El Haj",
+      "error": "request to https://v3.football-api.com/players/search?name=Hanane%20Ait%20El%20Haj failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hasnaa Taoufiq",
+      "error": "request to https://v3.football-api.com/players/search?name=Hasnaa%20Taoufiq failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Bouain",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Bouain failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Bouizgar",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Bouizgar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Daoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Daoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan El Mouataz",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20El%20Mouataz failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Ouboukar",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Ouboukar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Souari",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Souari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassan Tir",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassan%20Tir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hassane Alla",
+      "error": "request to https://v3.football-api.com/players/search?name=Hassane%20Alla failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hatim El Ouahabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hatim%20El%20Ouahabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hatim Essaouabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hatim%20Essaouabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Haytam Manaout",
+      "error": "request to https://v3.football-api.com/players/search?name=Haytam%20Manaout failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Aboucherouane",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Aboucherouane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Benkaid",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Benkaid failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Bouchemlal",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Bouchemlal failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Boussefiane",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Boussefiane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham El Amrani",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20El%20Amrani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham El Aroui",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20El%20Aroui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham El Fatihi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20El%20Fatihi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham El Majhed",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20El%20Majhed failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Jouiâa",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Joui%C3%A2a failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Khaloua",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Khaloua failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Kharbouch",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Kharbouch failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Mahdoufi",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Mahdoufi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Marchad",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Marchad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hicham Mlaab",
+      "error": "request to https://v3.football-api.com/players/search?name=Hicham%20Mlaab failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hind Hasnaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Hind%20Hasnaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hoda Khalaf",
+      "error": "request to https://v3.football-api.com/players/search?name=Hoda%20Khalaf failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hossam Essadak",
+      "error": "request to https://v3.football-api.com/players/search?name=Hossam%20Essadak failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hossamdine Sanhaji",
+      "error": "request to https://v3.football-api.com/players/search?name=Hossamdine%20Sanhaji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Houcine Zidoune",
+      "error": "request to https://v3.football-api.com/players/search?name=Houcine%20Zidoune failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Houssam Amaanan",
+      "error": "request to https://v3.football-api.com/players/search?name=Houssam%20Amaanan failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Houssin Rajallah",
+      "error": "request to https://v3.football-api.com/players/search?name=Houssin%20Rajallah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Houssine Kharja",
+      "error": "request to https://v3.football-api.com/players/search?name=Houssine%20Kharja failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Hugo Boumous",
+      "error": "request to https://v3.football-api.com/players/search?name=Hugo%20Boumous failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Husam Guili",
+      "error": "request to https://v3.football-api.com/players/search?name=Husam%20Guili failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibrahim Bezghoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibrahim%20Bezghoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibrahim Gomis",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibrahim%20Gomis failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibrahim Rabbaj",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibrahim%20Rabbaj failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibrahim Salah",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibrahim%20Salah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibtissam Bouharat",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibtissam%20Bouharat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ibtissam Jraïdi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ibtissam%20Jra%C3%AFdi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilias Akhomach",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilias%20Akhomach failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilias Boumassaoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilias%20Boumassaoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilias Chair",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilias%20Chair failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilias Sebaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilias%20Sebaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilies Belmokhtar",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilies%20Belmokhtar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyas Chaira",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyas%20Chaira failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyas Chouaref",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyas%20Chouaref failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyas El Arbaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyas%20El%20Arbaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyas Hidaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyas%20Hidaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyass Mahsoub",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyass%20Mahsoub failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ilyes Housni",
+      "error": "request to https://v3.football-api.com/players/search?name=Ilyes%20Housni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imad Berka",
+      "error": "request to https://v3.football-api.com/players/search?name=Imad%20Berka failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imad Faraj",
+      "error": "request to https://v3.football-api.com/players/search?name=Imad%20Faraj failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imad Najah",
+      "error": "request to https://v3.football-api.com/players/search?name=Imad%20Najah failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imad Omari",
+      "error": "request to https://v3.football-api.com/players/search?name=Imad%20Omari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imad Oumghar",
+      "error": "request to https://v3.football-api.com/players/search?name=Imad%20Oumghar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imane Abdelahad",
+      "error": "request to https://v3.football-api.com/players/search?name=Imane%20Abdelahad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imane Saoud",
+      "error": "request to https://v3.football-api.com/players/search?name=Imane%20Saoud failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imran Nazih",
+      "error": "request to https://v3.football-api.com/players/search?name=Imran%20Nazih failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Imène El Ghazouani",
+      "error": "request to https://v3.football-api.com/players/search?name=Im%C3%A8ne%20El%20Ghazouani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Inès Arouaissa",
+      "error": "request to https://v3.football-api.com/players/search?name=In%C3%A8s%20Arouaissa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Inès Kbida",
+      "error": "request to https://v3.football-api.com/players/search?name=In%C3%A8s%20Kbida failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Inés Faddi Id Guedouz",
+      "error": "request to https://v3.football-api.com/players/search?name=In%C3%A9s%20Faddi%20Id%20Guedouz failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismael Saibari",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismael%20Saibari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Belmaalem",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Belmaalem failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail El Aoud",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20El%20Aoud failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail H'Maidat",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20H%27Maidat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Haddad",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Haddad failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Khafi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Khafi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Kouha",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Kouha failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Moutaraji",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Moutaraji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismail Serdi",
+      "error": "request to https://v3.football-api.com/players/search?name=Ismail%20Serdi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaël Baouf",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%ABl%20Baouf failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaël Bennacer",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%ABl%20Bennacer failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaël Guerti",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%ABl%20Guerti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaïl Aaneba",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%AFl%20Aaneba failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaïl Aissati",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%AFl%20Aissati failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaïl El Inani",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%AFl%20El%20Inani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Ismaïl Koucham",
+      "error": "request to https://v3.football-api.com/players/search?name=Isma%C3%AFl%20Koucham failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Issam Badda",
+      "error": "request to https://v3.football-api.com/players/search?name=Issam%20Badda failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Issam Chebake",
+      "error": "request to https://v3.football-api.com/players/search?name=Issam%20Chebake failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Issam El Adoua",
+      "error": "request to https://v3.football-api.com/players/search?name=Issam%20El%20Adoua failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Issam Erraki",
+      "error": "request to https://v3.football-api.com/players/search?name=Issam%20Erraki failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Issame Charaï",
+      "error": "request to https://v3.football-api.com/players/search?name=Issame%20Chara%C3%AF failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jad Mouaddib",
+      "error": "request to https://v3.football-api.com/players/search?name=Jad%20Mouaddib failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jade Nassi",
+      "error": "request to https://v3.football-api.com/players/search?name=Jade%20Nassi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jalal Daoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Jalal%20Daoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jalal El Kindi",
+      "error": "request to https://v3.football-api.com/players/search?name=Jalal%20El%20Kindi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jaly Mouaddib",
+      "error": "request to https://v3.football-api.com/players/search?name=Jaly%20Mouaddib failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jamal Ait Lmaalem",
+      "error": "request to https://v3.football-api.com/players/search?name=Jamal%20Ait%20Lmaalem failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jamal Alioui",
+      "error": "request to https://v3.football-api.com/players/search?name=Jamal%20Alioui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jamel Aït Ben Idir",
+      "error": "request to https://v3.football-api.com/players/search?name=Jamel%20A%C3%AFt%20Ben%20Idir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jamel Zahiri",
+      "error": "request to https://v3.football-api.com/players/search?name=Jamel%20Zahiri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jaouad Akaddar",
+      "error": "request to https://v3.football-api.com/players/search?name=Jaouad%20Akaddar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jaouad Erraji",
+      "error": "request to https://v3.football-api.com/players/search?name=Jaouad%20Erraji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jaouad Zairi",
+      "error": "request to https://v3.football-api.com/players/search?name=Jaouad%20Zairi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jasin-Amin Assehnoun",
+      "error": "request to https://v3.football-api.com/players/search?name=Jasin-Amin%20Assehnoun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jasmine Demraoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Jasmine%20Demraoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jawad Bouâouda",
+      "error": "request to https://v3.football-api.com/players/search?name=Jawad%20Bou%C3%A2ouda failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jawad El Jemili",
+      "error": "request to https://v3.football-api.com/players/search?name=Jawad%20El%20Jemili failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jawad El Yamiq",
+      "error": "request to https://v3.football-api.com/players/search?name=Jawad%20El%20Yamiq failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jawad Issine",
+      "error": "request to https://v3.football-api.com/players/search?name=Jawad%20Issine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jawad Ouaddouch",
+      "error": "request to https://v3.football-api.com/players/search?name=Jawad%20Ouaddouch failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jibril El Baraka",
+      "error": "request to https://v3.football-api.com/players/search?name=Jibril%20El%20Baraka failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Jones El-Abdellaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Jones%20El-Abdellaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Joseph Bellahsen",
+      "error": "request to https://v3.football-api.com/players/search?name=Joseph%20Bellahsen failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Julian Michel",
+      "error": "request to https://v3.football-api.com/players/search?name=Julian%20Michel failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Juliën Mesbahi",
+      "error": "request to https://v3.football-api.com/players/search?name=Juli%C3%ABn%20Mesbahi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kamal Anis",
+      "error": "request to https://v3.football-api.com/players/search?name=Kamal%20Anis failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kamal Buglam",
+      "error": "request to https://v3.football-api.com/players/search?name=Kamal%20Buglam failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kamel Chafni",
+      "error": "request to https://v3.football-api.com/players/search?name=Kamel%20Chafni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kamel Ouejdide",
+      "error": "request to https://v3.football-api.com/players/search?name=Kamel%20Ouejdide failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Achahbar",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Achahbar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Ait Mohamed",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Ait%20Mohamed failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Azizou",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Azizou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Aït-Fana",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20A%C3%AFt-Fana failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Bellarabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Bellarabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Benarif",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Benarif failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Eddafi",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Eddafi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim El Ahmadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20El%20Ahmadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim El Berkaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20El%20Berkaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim El Mourabet",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20El%20Mourabet failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Fegrouche",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Fegrouche failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Karim Loukili",
+      "error": "request to https://v3.football-api.com/players/search?name=Karim%20Loukili failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kawtar Ait Omar",
+      "error": "request to https://v3.football-api.com/players/search?name=Kawtar%20Ait%20Omar failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kays Ruiz-Atil",
+      "error": "request to https://v3.football-api.com/players/search?name=Kays%20Ruiz-Atil failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kenza Chapelle",
+      "error": "request to https://v3.football-api.com/players/search?name=Kenza%20Chapelle failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khadfi Mohhamed Rharsalla",
+      "error": "request to https://v3.football-api.com/players/search?name=Khadfi%20Mohhamed%20Rharsalla failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khadija Ben Haddou",
+      "error": "request to https://v3.football-api.com/players/search?name=Khadija%20Ben%20Haddou failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khadija Er-Rmichi",
+      "error": "request to https://v3.football-api.com/players/search?name=Khadija%20Er-Rmichi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khairallah Abdelkbir",
+      "error": "request to https://v3.football-api.com/players/search?name=Khairallah%20Abdelkbir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khaled Mazgouti",
+      "error": "request to https://v3.football-api.com/players/search?name=Khaled%20Mazgouti failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Askri",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Askri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Boutaïb",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Bouta%C3%AFb failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid El Ouahabi",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20El%20Ouahabi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Hamdaoui",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Hamdaoui failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Kerkich",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Kerkich failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Lebhij",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Lebhij failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Sekkat",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Sekkat failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Khalid Serroukh",
+      "error": "request to https://v3.football-api.com/players/search?name=Khalid%20Serroukh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Kévin Malcuit",
+      "error": "request to https://v3.football-api.com/players/search?name=K%C3%A9vin%20Malcuit failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Lahcen Akhmis",
+      "error": "request to https://v3.football-api.com/players/search?name=Lahcen%20Akhmis failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Laila Faris",
+      "error": "request to https://v3.football-api.com/players/search?name=Laila%20Faris failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Lamia Boumehdi",
+      "error": "request to https://v3.football-api.com/players/search?name=Lamia%20Boumehdi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Larbi Naji",
+      "error": "request to https://v3.football-api.com/players/search?name=Larbi%20Naji failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Lina Chabane",
+      "error": "request to https://v3.football-api.com/players/search?name=Lina%20Chabane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Lina Touzani",
+      "error": "request to https://v3.football-api.com/players/search?name=Lina%20Touzani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Loubna El Marouany",
+      "error": "request to https://v3.football-api.com/players/search?name=Loubna%20El%20Marouany failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Madyen El Jaouhari",
+      "error": "request to https://v3.football-api.com/players/search?name=Madyen%20El%20Jaouhari failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mahmoud Benhalib",
+      "error": "request to https://v3.football-api.com/players/search?name=Mahmoud%20Benhalib failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mahmoud Bentayg",
+      "error": "request to https://v3.football-api.com/players/search?name=Mahmoud%20Bentayg failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Malak Zaid Alkilani",
+      "error": "request to https://v3.football-api.com/players/search?name=Malak%20Zaid%20Alkilani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Malcom Edjouma",
+      "error": "request to https://v3.football-api.com/players/search?name=Malcom%20Edjouma failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Manuel da Costa",
+      "error": "request to https://v3.football-api.com/players/search?name=Manuel%20da%20Costa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Maroan Sannadi",
+      "error": "request to https://v3.football-api.com/players/search?name=Maroan%20Sannadi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marouane Chamakh",
+      "error": "request to https://v3.football-api.com/players/search?name=Marouane%20Chamakh failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marouane Hadhoudi",
+      "error": "request to https://v3.football-api.com/players/search?name=Marouane%20Hadhoudi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marouane Imaghri",
+      "error": "request to https://v3.football-api.com/players/search?name=Marouane%20Imaghri failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marouane Louadni",
+      "error": "request to https://v3.football-api.com/players/search?name=Marouane%20Louadni failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Martin Mimoun",
+      "error": "request to https://v3.football-api.com/players/search?name=Martin%20Mimoun failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marwa Hassani",
+      "error": "request to https://v3.football-api.com/players/search?name=Marwa%20Hassani failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Marwane Saâdane",
+      "error": "request to https://v3.football-api.com/players/search?name=Marwane%20Sa%C3%A2dane failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Maryame Atiq",
+      "error": "request to https://v3.football-api.com/players/search?name=Maryame%20Atiq failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mathys Tourraine",
+      "error": "request to https://v3.football-api.com/players/search?name=Mathys%20Tourraine failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mbark Boussoufa",
+      "error": "request to https://v3.football-api.com/players/search?name=Mbark%20Boussoufa failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Medhi Benatia",
+      "error": "request to https://v3.football-api.com/players/search?name=Medhi%20Benatia failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Azim",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Azim failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Ballouchy",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Ballouchy failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Baltam",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Baltam failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Bellaroussi",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Bellaroussi failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Berrahma",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Berrahma failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Bettache",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Bettache failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    },
+    {
+      "name": "Mehdi Boukamir",
+      "error": "request to https://v3.football-api.com/players/search?name=Mehdi%20Boukamir failed, reason: write EPROTO D42A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n"
+    }
+  ],
+  "skipped": 0
+}
